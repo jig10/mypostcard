@@ -1,0 +1,110 @@
+
+body {
+	background-color: black;
+}
+
+.papersheet {
+	text-align:center;
+	
+
+}
+.container{
+background-color: white;
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-color: black;
+
+  
+}
+.content-top {
+    text-align: left;
+    font-family: 'Handlee', cursive;
+    height: 72px;
+    padding: 11px;
+
+}
+.content-top-left {
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.content-top-right {
+	width: 50%;
+	float: right;
+	height: 100%;
+}
+#logo{
+	width: 60px; height: 60px;
+	float: right; 
+	/*margin: -15% 10% 80% 25%;*/
+}
+
+.content-mid { background-color: white; 
+width: 100%;
+height:100px;
+}
+
+.left {
+font-size: 16px;
+font-family: 'Handlee', cursive;
+width:50%;
+float: left;
+overflow:hidden;
+
+}
+
+.right {
+
+padding-top: 5%;
+width: 50%;
+float: right;
+
+
+}
+
+button {
+	text-align: center;
+	border:none;
+	margin:auto;
+	float:right;
+	background-color: gray;
+	font-family: 'Handlee', cursive;
+	font-size: 13px;
+
+		
+}
+
+input {
+	font-family: 'Handlee', cursive;
+	display:block;
+	font-size: 16px;
+	padding-right: 20px;
+	width: 70%;
+	border-top: none;
+	border-left: none;
+	border-right:none;
+
+	border-bottom-width: 1px;
+	border-color: gray;
+
+
+
+
+}
+/*.right input{ 
+	float: right;
+	display: block;
+	background: blue;
+
+}*/
+
+.content-bottom { 
+width: 63%;
+height: 40%;
+}
+/*.content-bottom input [type=submit]{
+}
